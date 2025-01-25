@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Pixel5(failed)">
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="R9BN70063QJ"/>
+    <classes>
+      <class name="com.qa.saucelabs.runner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.saucelabs.runner.TestRunner -->
+    </classes>
+  </test> <!-- Pixel5(failed) -->
+</suite> <!-- Failed suite [Suite] -->
